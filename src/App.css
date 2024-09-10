@@ -135,16 +135,12 @@ button:hover {
   background-color: #04832a;
 }
 
-.order-summary {
-  border-top: 2px solid #ddd;
-  padding-top: 10px;
-}
-
 .order-summary .item {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
   border-radius: 6px;
+  border: 1px solid #e6e2e2;
 }
 
 .order-summary .item img {
