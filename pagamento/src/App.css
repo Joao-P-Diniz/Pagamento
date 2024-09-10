@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #a0a0a0;
+  background-color: #fff;
   margin: 0;
   padding: 0;
 }
@@ -15,7 +15,6 @@ header {
 header .container {
   width: 90%;
   max-width: 1200px;
-  
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -25,7 +24,7 @@ header .container {
 
 main {
   padding: 20px;
-  background-color: #a0a0a0;
+  background-color: #ffffff;
 }
 
 .container {
@@ -34,6 +33,7 @@ main {
   margin: 20px auto;
   display: flex;
   gap: 20px;
+
 }
 
 .column {
@@ -41,10 +41,11 @@ main {
 }
 
 .box {
-  background-color: #FDFDFD;
+  background-color: #ffffff;
   padding: 20px;
   box-sizing: border-box;
   border-radius: 8px;
+  border: 1px solid #e6e2e2;
 }
 
 h2 {
@@ -62,7 +63,7 @@ h2 {
 .payment-method {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -147,14 +148,14 @@ button:hover {
 }
 
 .order-summary .item img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   margin-right: 10px;
 }
 
 .order-summary .item .price {
   font-weight: bold;
-  margin-left: 180px;
+  margin-left: 150px;
 }
 
 
